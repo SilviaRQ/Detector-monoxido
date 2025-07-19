@@ -22,7 +22,10 @@ Este proyecto utiliza un **ESP32** y un sensor de gas (como el **MQ-7** ) para d
 ## 📐 Esquema de conexión
 <img src="conexion.png">
 
-## 📝 Notas
 
-- El umbral de activación de la alarma (`threshold`) se puede ajustar en el código según la sensibilidad del sensor.
+## 📝 Posibles mejoras (a futuro)
+- Agregar una pantallita led donde se visualiza el valor del nivel de CO.
+- Hacer una carcasa, para mayor comodidad.
+
+## ⚠ Disclaimer ⚠
 - Esta es una versión básica. No reemplaza un detector certificado de monóxido.
