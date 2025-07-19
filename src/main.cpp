@@ -44,7 +44,11 @@ void loop() {
   Serial.print("Nivel de CO: ");
   Serial.println(gasValue);
   if (gasValue > umbralCO) {
-    digitalWrite(buzzerPin, HIGH); // Activa buzzer
+    //Activa el buzzer, intermitente
+    digitalWrite(buzzerPin, HIGH);
+    delay(100);
+    digitalWrite(buzzerPin, LOW);
+    delay(100);
     ambienteSeguro = false;
     Serial.println("¡CO detectado!");  
   }
