@@ -20,7 +20,7 @@ Este proyecto utiliza un **ESP32** y un sensor de gas (como el **MQ-7** ) para d
 - Conexión WiFi para la página web local
 
 ## 📐 Esquema de conexión
-
+<img src="conexion.png">
 
 ## 📝 Notas
 
